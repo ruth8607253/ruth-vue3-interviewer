@@ -9,7 +9,7 @@ export const setAccessToken = (token: string | null) => {
 export const apiClient = axios.create({
   baseURL: import.meta.env.VITE_API_BASE_URL,
   headers: {
-    interviewerName: import.meta.env.VITE_INTERVIEWER_NAME ?? 'Ruth',
+    interviewerName: import.meta.env.VITE_INTERVIEWER_NAME ?? 'yourEnglishName',
   },
 })
 
